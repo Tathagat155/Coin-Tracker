@@ -1,0 +1,49 @@
+body{
+margin: 0;
+padding: 0;
+background-color: black;
+}
+.container{
+    height: 100%;
+   border: 1px solid white;
+}
+#input-bar{
+   display:flex;
+   gap: 10px;
+   margin: 50px 30px;
+}
+input{
+    width: 50%;
+    background-color: black;
+    color: silver;
+    border: 1px solid white
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    height: 40px;
+    width: 20%;
+}
+table{
+    margin:5px 30px;
+    width:90%;
+}
+tbody{
+    color: white;
+}
+.img{
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:1px solid white;
+    height: 70px;
+}
+td{
+    width:16.6%;
+}
